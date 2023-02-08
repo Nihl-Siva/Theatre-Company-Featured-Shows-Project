@@ -1,0 +1,211 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover{
+    color: lightslategray;
+}
+
+nav li{
+    display: inline-block;
+    align-items: center;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    margin: 3vw;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+nav{
+    display: inline-flex;
+    color: white;
+    list-style-type: none;
+    background-color: black;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.heroimg {
+    background-image: url("../assets/images/image1.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.herotext {
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 9.5vw;
+    font-weight: normal;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+  
+#logolink{
+    margin: 0px;
+    font-size: 2vw;
+    display: block;
+    margin-left: 4vw;
+    margin-right: auto;
+    float:left;
+    padding: 2vw;
+    font-weight: 580;
+}
+
+.monthbox{
+    border: 1px solid #555;
+    background-color: whitesmoke;
+    margin-left: 19vw;
+    margin-right: 19vw;
+    margin-top: 8vw;
+    
+}
+
+.monthtext{
+    font-weight: normal;
+    font-size: 1.8vw;
+    padding: 3px;
+    margin: 0;
+    margin-left: 3vw;
+}
+
+.show{
+    margin-top: 2vw;
+    margin-left: 20vw;
+    margin-right: 19vw;
+    width: 61vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 0;
+    margin-top: 0;
+    border-bottom: solid 1px #555;
+}
+
+.showimg{
+    width: 25%;
+    height: 80%;
+    object-fit: cover;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.showtext{
+    margin-left: 4vw;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.5vw;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.play, .dates, .address, .price{
+    font-weight: 1;
+    padding: 0;
+    margin: 1vw;
+    
+}
+
+.readmore{
+    background-color: goldenrod;
+    color: white;
+    width: 15%;
+    height: 8vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 1vw;
+    font-size: 1.5vw;
+}
+
+footer{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6%;
+    padding-left: 8%;
+    background-color: black;
+    white-space: nowrap;
+
+}
+
+.footer-list {
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20vw;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    
+}
+
+iframe{
+    width: 25vw;
+    height: 30vh;
+    margin-right: 3vw;
+}
+
+.infotext, .showstext, .socialtext{
+    font-size: 3vw;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.ft-item{
+    display: flex;
+    margin-bottom: 7vh;
+    align-items: center;
+
+    
+}
+
+.fa-solid, .fa-regular{
+    font-size: 2vw;
+    color: goldenrod;
+    margin-right: 1vw;
+    align-items: center;
+}
